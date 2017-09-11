@@ -10,13 +10,24 @@ An FCN was used in this project because it retains the spatial information durin
 2- 1 x 1 convolution
 3- Decoder: Transposed convolutions and skip connections
 
+### Hyper-parameters
+The following Hyper-parameters were used in training the FCN
+
+| Parameter                        | Value   | 
+|:--------------------------------:|:-------:| 
+| Keep Probability                 | 0.75    | 
+| Batch Size                       | 8       |
+| Epochs                           | 5       |
+| Learning Rate                    | 0.0001  |
+| Normalization Standard Deviation | 187     |
+
 ### Results
 Below are the results before and after applying the FCN.
 
 Before                                                            | After
 :-------------------------------------------------------------------:|:-------------------------------------------------------------------:
-<img src="./README_images/before_um_000041.png" alt="ex_1" height="150"> | <img src="./README_images/um_000041.png" alt="ex_2" height="150">
-<img src="./README_images/before_um_000084.png" alt="ex_1" height="150"> | <img src="./README_images/um_000084.png" alt="ex_2" height="150">
+<img src="./README_images/before_umm_000041.png" alt="ex_1" height="150"> | <img src="./README_images/umm_000041.png" alt="ex_2" height="150">
+<img src="./README_images/before_umm_000084.png" alt="ex_1" height="150"> | <img src="./README_images/umm_000084.png" alt="ex_2" height="150">
 
 ### Setup
 ##### Frameworks and Packages
