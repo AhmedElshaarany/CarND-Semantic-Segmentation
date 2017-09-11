@@ -10,7 +10,7 @@ An FCN was used in this project because it retains the spatial information durin
 * 2- 1 x 1 convolution
 * 3- Decoder: Transposed convolutions and skip connections
 
-<p align="center"><img src="./README_images/FCN_arch.jpeg" alt="fcn_arch" height="500"/></p>
+<p align="center"><img src="./README_images/FCN_arch.jpg" alt="FCN_arch" height="500"/></p>
 
 ### Hyper-parameters
 The following Hyper-parameters were used in training the FCN
