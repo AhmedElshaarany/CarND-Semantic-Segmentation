@@ -1,6 +1,35 @@
+# Self-Driving Car Engineer Nanodegree
 # Semantic Segmentation
+
 ### Introduction
-In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
+In this project, a Fully Convolutional Network (FCN) is used to label the pixels of a road in images.
+
+### Fully Convolutional Networks (FCN)
+An FCN was used in this project because it retains the spatial information during training. This can be really helpful when trying to identify where an object is in an image. The architecture used in this project is divided into three main parts as shown in the architecture below:
+* 1- Encoder: Pre-trained VGG16 neural network
+* 2- 1 x 1 convolution
+* 3- Decoder: Transposed convolutions and skip connections
+
+<p align="center"><img src="./README_images/FCN_arch.jpg" alt="fcn_arch" height="500"/></p>
+
+### Hyper-parameters
+The following Hyper-parameters were used in training the FCN
+
+| Parameter                        | Value   | 
+|:--------------------------------:|:-------:| 
+| Keep Probability                 | 0.75    | 
+| Batch Size                       | 8       |
+| Epochs                           | 5       |
+| Learning Rate                    | 0.0001  |
+| Normalization Standard Deviation | 187     |
+
+### Results
+Below are the results before and after applying the FCN.
+
+Before                                                            | After
+:-------------------------------------------------------------------:|:-------------------------------------------------------------------:
+<img src="./README_images/before_umm_000041.png" alt="ex_1" height="150"> | <img src="./README_images/umm_000041.png" alt="ex_2" height="160">
+<img src="./README_images/before_umm_000084.png" alt="ex_1" height="150"> | <img src="./README_images/umm_000084.png" alt="ex_2" height="160">
 
 ### Setup
 ##### Frameworks and Packages
