@@ -21,15 +21,15 @@ The following Hyper-parameters were used in training the FCN
 | Batch Size                       | 8       |
 | Epochs                           | 5       |
 | Learning Rate                    | 0.0001  |
-| Normalization Standard Deviation | 187     |
+| Normalization Standard Deviation | 0.01    |
 
 ### Results
 Below are the results before and after applying the FCN.
 
 Before                                                            | After
 :-------------------------------------------------------------------:|:-------------------------------------------------------------------:
-<img src="./README_images/before_umm_000041.png" alt="ex_1" height="150"> | <img src="./README_images/umm_000041.png" alt="ex_2" height="160">
-<img src="./README_images/before_umm_000084.png" alt="ex_1" height="150"> | <img src="./README_images/umm_000084.png" alt="ex_2" height="160">
+<img src="./README_images/before_umm_000041.png" alt="before1" height="180"> | <img src="./README_images/umm_000041.png" alt="after1" height="180">
+<img src="./README_images/before_umm_000084.png" alt="before2" height="180"> | <img src="./README_images/umm_000084.png" alt="after2" height="180">
 
 ### Setup
 ##### Frameworks and Packages
