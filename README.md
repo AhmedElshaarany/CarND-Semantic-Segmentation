@@ -34,8 +34,8 @@ Before                                                            | After
 <img src="./README_images/before_umm_000084.png" alt="before2" height="180"> | <img src="./README_images/umm_000084.png" alt="after2" height="180">
 
 Here are also two videos of applying the FCN on a highway and in a downtown setting:
-[Highway](https://youtu.be/mqSOvY3Jvxg)
-[Downtown](https://youtu.be/PBUvMJwdbSw)
+*[Highway](https://youtu.be/mqSOvY3Jvxg)
+*[Downtown](https://youtu.be/PBUvMJwdbSw)
 
 
 ### Setup
